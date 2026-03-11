@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividades JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .botao {
+      display: block;
+      width: 300px;
+      margin: 10px auto;
+      padding: 14px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .botao:hover {
+      background-color: #45a049;
+    }
+
+    #resultado {
+      margin-top: 20px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      width: 400px;
+      white-space: pre-wrap;
+      font-family: monospace;
+      font-size: 15px;
+      border: 1px solid #ccc;
+      min-height: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Atividades de JavaScript</h1>
+
+  <button class="botao" onclick="jogoAdivinhar()">Exercício 1 – Adivinhe o Número</button>
+  <button class="botao" onclick="jogoPedraPapelTesoura()">Exercício 2 – Pedra, Papel ou Tesoura</button>
+  <button class="botao" onclick="tabuada()">Exercício 3 – Tabuada</button>
+  <button class="botao" onclick="triangulo()">Exercício 4 – Triângulo de Asteriscos</button>
+  <button class="botao" onclick="somaSerie()">Exercício 5 – Soma da Série</button>
+
+  <div id="resultado">Clique em um exercício para ver o resultado aqui!</div>
+
+  <!-- Aqui estamos carregando o arquivo script.js -->
+  <script src="script.js"></script>
+
+</body>
+</html>

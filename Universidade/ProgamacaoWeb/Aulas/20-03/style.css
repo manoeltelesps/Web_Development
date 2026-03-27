@@ -1,0 +1,53 @@
+body { font-family: Arial, sans-serif; padding: 40px; }
+button { padding: 10px 20px; margin: 10px; font-size: 16px; cursor: pointer; }
+#caixa {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+#mensagem { margin-top: 20px; font-size: 18px; color: darkblue; }
+
+/* Drag and Drop */
+#drag-container {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.drag-item {
+  width: 100px;
+  height: 60px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: grab;
+}
+.drag-item.arrastando {
+  opacity: 0.4;
+}
+.drop-zone {
+  width: 300px;
+  height: 100px;
+  border: 3px dashed #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #555;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: background-color 0.2s;
+}
+.drop-zone.sobre {
+  background-color: #d4edda;
+  border-color: green;
+}
+#mensagem-drag { font-size: 16px; color: darkgreen; margin-top: 10px; }

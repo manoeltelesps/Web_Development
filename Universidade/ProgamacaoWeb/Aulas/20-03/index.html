@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Eventos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Testando Eventos</h1>
+
+  <button id="btn">Clique aqui</button>
+
+  <div id="caixa">Passe o mouse aqui</div>
+
+  <button id="btn2"> Clique 2 vezes </button>
+
+  <input type="text" id="input" placeholder="Digite algo...">
+
+  <p> Você digitou: <span id="output"></span>  </p>
+  <p id="mensagem">Aguardando evento...</p>
+
+  <hr>
+  <h2> AddEventListener</h2>
+  <button id="btn3">Clique aqui para AddEventListener</button>
+  <p id="mensagem1"></p>
+  <p id="mensagem2"></p>
+
+  <hr>
+  <h2>Drag and Drop</h2>
+  <div id="drag-container">
+    <div id="item1" class="drag-item" draggable="true">Item 1</div>
+    <div id="item2" class="drag-item" draggable="true">Item 2</div>
+    <div id="item3" class="drag-item" draggable="true">Item 3</div>
+  </div>
+
+  <div id="zona-drop" class="drop-zone">Arraste um item aqui</div>
+  <p id="mensagem-drag">Aguardando drag and drop...</p>
+
+  <script src="script.js"></script>
+</body>
+</html>

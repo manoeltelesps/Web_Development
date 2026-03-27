@@ -1,13 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM - Atividade 3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="myButton">Contador</button>
-    
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>Contador de Cliques</h2>
+            <div class="botoes">
+                <button id="contador">+ Incrementar</button>
+                <button id="redutor">- Reduzir</button>
+            </div>
+            <p class="display">Cliques: <span id="clickCounts">0</span></p>
+        </div>
+
+        <div class="card">
+            <h2>Texto Dinâmico</h2>
+
+            <input type="text" id="inputText" placeholder="Digite algo e pressione Enter">
+            <button id="displayButton">Exibir Texto</button>
+
+            <div id="displayText"></div>
+        </div>
+
+        <div class="card">
+            <h2>Contador de Caracteres</h2>
+
+            <textarea id="charInput" placeholder="Digite algo e veja a contagem de caracteres"></textarea>
+
+            <p class="display">Caracteres: <span id="charCount">0</span></p>
+        </div>
+
+        <div class="card">
+            <h2>Adicionar Itens</h2>
+
+            <input type="text" id="itemInput" placeholder="Digite o item">
+
+            <select id="listType">
+                <option value="ul">Lista Não Ordenada</option>
+                <option value="ol">Lista Ordenada</option>
+            </select>
+
+            <button id="addItemBtn">Adicionar</button>
+
+            <div id="listContainer"></div>
+        </div>
+
+    </div>
+
+    <div class="reset-area">
+        <button id="resetBtn">Reset</button>
+    </div>
+
     <script src="atividade3.js"></script>
 
 </body>

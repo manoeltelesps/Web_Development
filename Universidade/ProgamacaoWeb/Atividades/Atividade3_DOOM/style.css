@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+h1.titulo {
+    text-align: center;
+    margin: 0 0 24px 0;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reset-area {
+    max-width: 800px;
+    margin: 24px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card base — usado em todas as atividades */
+.card {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 24px 32px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin: 0 0 16px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card button {
+    padding: 8px 20px;
+    font-size: 1rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e8e8e8;
+}
+
+.card button:hover {
+    background-color: #d0d0d0;
+}
+
+.card input {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.card input:focus,
+.card textarea:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.card textarea {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    resize: vertical;
+    font-family: inherit;
+    min-height: 80px;
+}
+
+.card select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#resetBtn {
+    padding: 10px 32px;
+    font-size: 1rem;
+    border: 2px solid #c0392b;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+#resetBtn:hover {
+    background-color: #c0392b;
+}
+
+/* Atividade 1 */
+.botoes {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.display {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Atividade 2 */
+#displayText p {
+    margin: 6px 0 0 0;
+    color: #222;
+    font-size: 0.95rem;
+    border-top: 1px solid #eee;
+    padding-top: 6px;
+}

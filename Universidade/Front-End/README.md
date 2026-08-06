@@ -1,18 +1,23 @@
-# Projeto Universidade
+# 🌊 Front-End
 
-This repository contains a collection of my personal projects, tests, and study materials focused on front-end web development. The goal is to centralize examples and practical exercises I've created to help understand essential concepts like HTML structure, CSS styling, responsive design, and more.
+Projetos da disciplina de Front-End da faculdade: dois sites estáticos em HTML/CSS (com Bootstrap), cada um sobre um tema diferente.
 
-## Contents:
-- Personal projects and tests to improve front-end development skills
-- Code examples demonstrating various design techniques
-- Commented solutions to aid in my learning and implementation
+## 📂 Estrutura
+| Pasta | Descrição |
+|---|---|
+| `Front-End/Dia Mundial dos Oceanos/` | Site institucional sobre o Dia Mundial dos Oceanos (8 de junho), com um mapa-múndi clicável que leva a uma página dedicada a cada oceano |
+| `Front-End/TemaLivre - FRONTEND/` | Site de tema livre sobre Counter-Strike ("Bomb Site"), com páginas de notícias, mapas, times, jogadores, majors, partidas e ranking |
 
-## How to Use:
-- Browse through the directories to find the projects, tests, or examples you want to explore.
-- Read the code and run it in your browser to see the results.
-- Check the comments in the code to understand the logic and styling applied.
+## 📂 Arquivos principais
+| Arquivo | Descrição |
+|---|---|
+| `.../Dia Mundial dos Oceanos/index.html` | Página inicial, com mapa clicável que leva a cada oceano |
+| `.../Dia Mundial dos Oceanos/{artico,atlantico,pacifico,indico,antartico}.html` | Página de conteúdo de cada oceano |
+| `.../Dia Mundial dos Oceanos/style.css` | Estilos do site |
+| `.../TemaLivre - FRONTEND/index.html` | Página inicial do site sobre CS |
+| `.../TemaLivre - FRONTEND/{eventos,major,mapas,noticias,partidas,ranking}.html` | Páginas de conteúdo do site |
+| `.../TemaLivre - FRONTEND/stylecss.css` | Estilos do site |
+| `Imagens/` (em cada projeto) | Imagens usadas nas páginas |
 
-## Contributing:
-Feel free to explore the projects or suggest improvements. To contribute, fork this repository and submit a pull request with your changes.
-
- 
+---
+**Autor:** Manoel Teles · [LinkedIn](https://www.linkedin.com/in/manoeltelesps)

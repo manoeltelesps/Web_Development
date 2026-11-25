@@ -1,0 +1,3 @@
+[submodule "Universidade/ProgamacaoWeb/ConectaIdade/conectaIdade"]
+	path = Universidade/ProgamacaoWeb/ConectaIdade/conectaIdade
+	url = https://github.com/lucascostaslv/conectaIdade.git
